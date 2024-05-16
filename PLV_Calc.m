@@ -11,7 +11,7 @@ tic
 % Load the preprocessed EEG data
 d = 30; % Subject you want to work on...
 load(sprintf('EEG_intpol_%d.mat', d), sprintf("EEG_intpol_%d", d));
-% Remove facial channels (Using pop_select from EEGLAB
+% Remove facial channels (Using pop_select from EEGLAB)
 EEG = pop_select(eval(sprintf("EEG_intpol_%d", d)), 'nochannel',{'E1','E10','E18','E25','E31','E32','E37','E46','E54','E61','E67','E68','E73','E82','E83','E91','E92','E93','E102','E145','E165','E174','E208','E209','E210','E211','E216','E217','E218','E219','E220','E221','E225','E226','E227','E228','E229','E230','E231','E232','E233','E234','E235','E236','E237','E238','E239','E240','E241','E242','E243','E244','E245','E246','E247','E248','E249','E250','E251','E252','E253','E254','E255','E256'});
 
 %%
