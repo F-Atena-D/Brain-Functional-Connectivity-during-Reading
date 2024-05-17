@@ -37,6 +37,7 @@ n = 28;
 for i = 1:n
     NDEd(i,:) = (DEdt(i,:) - min(DEdt(i,:)))/(max(DEdt(i,:)) - min(DEdt(i,:)));
 end
+NDEA = NDEd;
 %
 mDEd = mean(NDEd, 1);
 sDEd = std(NDEd, [], 1);
@@ -77,6 +78,7 @@ n = 28;
 for i = 1:n
     NDEd(i,:) = (DEdt(i,:) - min(DEdt(i,:)))/(max(DEdt(i,:)) - min(DEdt(i,:)));
 end
+NDEB = NDEd;
 %
 mDEd = mean(NDEd, 1);
 sDEd = std(NDEd, [], 1);
@@ -117,6 +119,7 @@ n = 28;
 for i = 1:n
     NDEd(i,:) = (DEdt(i,:) - min(DEdt(i,:)))/(max(DEdt(i,:)) - min(DEdt(i,:)));
 end
+NDEG = NDEd;
 %
 mDEd = mean(NDEd, 1);
 sDEd = std(NDEd, [], 1);
@@ -127,4 +130,6 @@ xlabel('Time (ms)','FontSize',18,'fontweight','bold');
 ylabel('Normalized Density (Mean+/-SEM)','FontSize',18,'fontweight','bold')
 set(gca,'FontSize',14,'fontweight','bold')
 
+%%
+save("NDEd_FB.mat", "NDEG", "NDEB", "NDEA");
 
