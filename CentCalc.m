@@ -56,3 +56,12 @@ hold on; errorbar(1:4:500, mlsto, slsto, 'LineWidth', 2, 'Color', 'b');
 xlabel('Time (ms)','FontSize',14,'fontweight', 'bold');
 ylabel('Eigenvector Centrality (Mean+/-SEM)','FontSize',14,'fontweight', 'bold')
 set(gca,'FontSize',14,'fontweight','bold')
+
+%% Calculate the average Centrality of each lobe and perform statistical analysis
+sf = reshape(mean(mean(cntevd(:, cFrontal, :), 2), 1), [], 1);
+st = reshape(mean(mean(cntevd(:, cTemporal, :), 2), 1), [], 1);
+sp = reshape(mean(mean(cntevd(:, cParietal, :), 2), 1), [], 1);
+so = reshape(mean(mean(cntevd(:, cOccipital, :), 2), 1), [], 1);
+[~,~,stats] = anova1([sf; st; sp; so], [ones(size(sf)); 2*ones(size(st)); 3*ones(size(sp)); 4*ones(size(so))]);
+[c,~,~,gnames] = multcompare(stats);
+
