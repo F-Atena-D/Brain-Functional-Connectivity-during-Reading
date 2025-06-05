@@ -20,4 +20,4 @@ Here are the key analysis and plotting MATLAB scripts for the "Brain Functional 
 *CentCalc.m* – Computes eigenvector centrality for each subject and time point, averages centrality by brain region, plots the time series, and performs ANOVA on regional centrality values.  
 *ConnPercent.m* – Determines which connections increase significantly between early, middle, and late portions of a trial using rank‑sum tests, counts intra‑ and inter‑regional edges, and generates bar plots of the percentages.  
 *CrossCov_FreqBand.m* – Calculates cross‑covariance between the normalized density in theta and the densities in alpha, beta, and gamma bands, plotting the results with error bars.  
-*DensThreshold.m* – Examines how varying the threshold for binarizing PLV matrices affects graph density; computes correlations of density at each threshold with the 0.7 threshold and visualizes them.  
+*DensThreshold.m* – Examines how varying the threshold for binarizing PLV matrices affects graph density.   
