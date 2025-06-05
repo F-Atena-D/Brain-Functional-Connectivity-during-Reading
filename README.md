@@ -2,9 +2,9 @@
 
 Here are the key analysis and plotting MATLAB scripts for the "Brain Functional Connectivity during Reading" project. These scripts include: 
 **Connectivity computation**  
-*PLV_Calc.m* – Computes phase locking value (PLV) across EEG channels. Loads preprocessed EEG data, filters it, and removes facial channels.
-*eegPLV.m* – A helper function implementing PLV computation with detailed documentation, including an example on how to call it.
-**Graph analyses**
+*PLV_Calc.m* – Computes phase locking value (PLV) across EEG channels. Loads preprocessed EEG data, filters it, and removes facial channels.  
+*eegPLV.m* – A helper function implementing PLV computation with detailed documentation, including an example on how to call it.  
+**Graph analyses**  
 *Graph_Density.m* – Calculates graph density from PLV matrices.
 *Graph_Path.m* – Calculates shortest path lengths using averagePathLength and visualizes the results.
 *Graph_Similarity.m* – Computes graph similarity (Jaccard index).
