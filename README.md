@@ -13,4 +13,3 @@ Here are the key analysis and plotting MATLAB scripts for the "Brain Functional 
 *Power.m* – Computes and plots spectral power in theta/alpha bands.  
 **plotting**  
 *ConnGraphPlot.m*, *SpectPlot.m*, *TopoPlot.m* – Produce visualizations of the results.  
-You can find the paper here: https://doi.org/10.1101/2025.03.10.642502  
