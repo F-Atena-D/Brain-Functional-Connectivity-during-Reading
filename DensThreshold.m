@@ -1,8 +1,8 @@
 
-% Script Name: DensThereshold
+% Script Name: DensThreshold
 % Author: Fatemeh Delavari 
 % Version: 1.0
-% Description: This script depicts the effects of using different theresholds on 
+% Description: This script depicts the effects of using different thresholds on 
 % the density of connectivity graphs
 
 clear; clc;  % Clear workspace and command window
