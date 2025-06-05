@@ -21,3 +21,6 @@ Here are the key analysis and plotting MATLAB scripts for the "Brain Functional 
 *ConnPercent.m* – Determines which connections increase significantly between early, middle, and late portions of a trial using rank‑sum tests, counts intra‑ and inter‑regional edges, and generates bar plots of the percentages.  
 *CrossCov_FreqBand.m* – Calculates cross‑covariance between the normalized density in theta and the densities in alpha, beta, and gamma bands, plotting the results with error bars.  
 *DensThreshold.m* – Examines how varying the threshold for binarizing PLV matrices affects graph density.   
+
+This repository is the companion of the following paper: 
+Delavari, F., Ekves, Z., Hancock, R., Altmann, G. T. M., & Santaniello, S. (2025). EEG-derived brain connectivity in theta/alpha frequency bands increases during reading of individual words. Cognitive Neurodynamics. https://doi.org/10.1007/s11571-025-10280-8
