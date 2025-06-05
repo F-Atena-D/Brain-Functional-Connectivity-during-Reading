@@ -14,9 +14,9 @@ Here are the key analysis and plotting MATLAB scripts for the "Brain Functional 
 *SimilarityPic.m* – Similar to DensityPic, but computes the Jaccard similarity of each time point to a template graph during picture naming, then normalizes and plots the average curve.   
 **Power calculation**   
 *Power.m* – Computes and plots spectral power in theta/alpha bands.  
-**plotting**  
+**Plotting**  
 *ConnGraphPlot.m*, *SpectPlot.m*, *TopoPlot.m* – Produce visualizations of the results.  
-**Other Matlab Files**   
+**Other files**   
 *CentCalc.m* – Computes eigenvector centrality for each subject and time point, averages centrality by brain region, plots the time series, and performs ANOVA on regional centrality values.  
 *ConnPercent.m* – Determines which connections increase significantly between early, middle, and late portions of a trial using rank‑sum tests, counts intra‑ and inter‑regional edges, and generates bar plots of the percentages.  
 *CrossCov_FreqBand.m* – Calculates cross‑covariance between the normalized density in theta and the densities in alpha, beta, and gamma bands, plotting the results with error bars.  
