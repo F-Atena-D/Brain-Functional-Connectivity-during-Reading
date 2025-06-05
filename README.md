@@ -1,6 +1,6 @@
 # Brain-Functional-Connectivity-during-Reading
 
-Here are the key analysis and plotting MATLAB scripts for the "Brain Functional Connectivity during Reading" project. These scripts include: 
+Here are the key analysis and plotting MATLAB scripts for the "Brain Functional Connectivity during Reading" project. These scripts include:   
 **Connectivity computation**  
 *PLV_Calc.m* – Computes phase locking value (PLV) across EEG channels. Loads preprocessed EEG data, filters it, and removes facial channels.  
 *eegPLV.m* – A helper function implementing PLV computation with detailed documentation, including an example on how to call it.  
